@@ -1,5 +1,7 @@
 # Code Review Assistant 🤖
 
+## Demo Video Google Drive Link: `https://drive.google.com/file/d/1p6tKVLNSEcpvtMf2jDeLMRrSCSw5gHeh/view?usp=sharing`
+
 ## Objective
 An automated code review assistant that analyzes source code files for structure, readability, and best practices using Large Language Model (LLM) integration. This project provides a backend API to submit code and receive a detailed review report.
 
@@ -22,7 +24,7 @@ An automated code review assistant that analyzes source code files for structure
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/sau-rabh-7/code-review-assistant.git
 cd code-review-assistant
 ```
 
