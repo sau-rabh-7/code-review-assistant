@@ -1,6 +1,7 @@
 # Code Review Assistant 🤖
 
-## Demo Video Google Drive Link: `https://drive.google.com/file/d/1p6tKVLNSEcpvtMf2jDeLMRrSCSw5gHeh/view?usp=sharing`
+## Demo Video Google Drive Link
+`https://drive.google.com/file/d/1p6tKVLNSEcpvtMf2jDeLMRrSCSw5gHeh/view?usp=sharing`
 
 ## Objective
 An automated code review assistant that analyzes source code files for structure, readability, and best practices using Large Language Model (LLM) integration. This project provides a backend API to submit code and receive a detailed review report.
