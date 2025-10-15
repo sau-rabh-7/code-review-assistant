@@ -1,5 +1,5 @@
 import { Box, Typography, Paper, Grid, Card, CardContent, Divider, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
-import { ReportData } from '../App';
+import type { ReportData } from '../types';
 import CodeIcon from '@mui/icons-material/Code';
 
 interface Props {

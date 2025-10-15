@@ -3,20 +3,20 @@ import { Container, Typography, createTheme, ThemeProvider, CssBaseline, Box, Ci
 import CodeInputForm from './components/CodeInputForm';
 import ReviewReport from './components/ReviewReport';
 import axios from 'axios';
+import type { ReportData } from './types';
 
-// Define a type for our report structure for TypeScript
-export interface ReviewSuggestion {
-  line: number;
-  suggestion: string;
-}
+// export interface ReviewSuggestion {
+//   line: number;
+//   suggestion: string;
+// }
 
-export interface ReportData {
-  readability_score: number;
-  modularity_score: number;
-  bug_potential: number;
-  overall_summary: string;
-  suggestions: ReviewSuggestion[];
-}
+// export interface ReportData {
+//   readability_score: number;
+//   modularity_score: number;
+//   bug_potential: number;
+//   overall_summary: string;
+//   suggestions: ReviewSuggestion[];
+// }
 
 const darkTheme = createTheme({
   palette: {
